@@ -1,7 +1,6 @@
-import React from 'react';
-import { hot } from 'react-hot-loader/root';
+import React, { FunctionComponent } from 'react';
 
-export default hot(function Widget() {
+const Widget: FunctionComponent = () => {
   return (
     <div
       style={{
@@ -14,4 +13,6 @@ export default hot(function Widget() {
       <h2>App Widget!!!</h2>
     </div>
   );
-});
+};
+
+export default Widget;
